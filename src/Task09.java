@@ -14,7 +14,8 @@ public class Task09 {
             System.out.println("Отрезок является точкой.");
         } else if (x1 == x2) {
             System.out.println("Отрезок является вертикальной линией.");
-        } else { double slope = (y2 - y1) / (x2 - x1);
+        } else {
+            double slope = (y2 - y1) / (x2 - x1);
             if (slope == 0) {
                 System.out.println("Отрезок является горизонтальной линией.");
             } else if (slope > 0) {
